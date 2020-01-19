@@ -1,12 +1,11 @@
-
-
-
-
-
 import pandas as pd
+
+
 movie_path = r"~/downloads/airflow-project3/files/movie.csv"
 rating_path = r"~/downloads/airflow-project3/files/rating.csv"
 tag_path = r"~/downloads/airflow-project3/files/tag.csv"
+
+
 
 def load_files():
     movie_df = pd.read_csv(movie_path,nrows = 10000)
