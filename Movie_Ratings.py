@@ -44,3 +44,4 @@ insert_db_core = PythonOperator(
 
 
 load_data >> aggregate_data >> insert_db_core
+
